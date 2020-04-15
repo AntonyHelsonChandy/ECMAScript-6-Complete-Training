@@ -1,0 +1,28 @@
+<html>
+<body>
+
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="add()">Add 11+12</button>
+<button type="button" onclick="sub()">Sub 23-12</button>
+<button type="button" onclick="mul()">Mul 2*3</button>
+<button type="button" onclick="div()">Mul 8/2</button>
+<script>
+function add() {
+ document.getElementById("demo").innerHTML = 11+12;
+}
+
+function sub() {
+ document.write(23-12);
+}
+
+function mul() {
+ window.alert(2*3);
+}
+function div() {
+ console.log(8/2);
+}
+</script>
+
+</body>
+</html>
